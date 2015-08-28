@@ -1,28 +1,28 @@
-=== WordPress Solarized Admin Color Scheme ===
+=== Solarized Admin Color Scheme ===
 Contributors: szepe.viktor
 Donate link: https://szepe.net/wp-donate/
 Tags: solarized, admin, administration, dashboard, color, color scheme
 Requires at least: 3.8
-Tested up to: 4.1.1
-Stable tag: 0.2
+Tested up to: 4.3
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Make the dashboard Solarized, ease your eyes.
+Make admin pages solarized, ease your eyes.
 
 == Description ==
 Adds an admin color scheme which not only colorizes the admin menu and
-the admin bar but the whole dashboard.
+the admin bar but the whole page.
 
-Use it if you know the dashboard, if you know the location of every part
-of dashboard because Solarized's contrast is lower than other color schemes
+Use it if you know the admin pages, if you know the location of everything
+because solarized's contrast is lower than other color schemes
 to ease your eyes.
 
 This plugin is based on [Ethan Schoonover's](http://ethanschoonover.com/solarized) project of the same name.
 
 = How do I switch color scheme? =
 
-On the Dashboard go to Users / Your Profile and click on "Solarized".
+Go to Users / Your Profile and click on "Solarized".
 
 == Installation ==
 
@@ -43,11 +43,13 @@ This plugin is to ease your eyes not to provide high visibility.
 
 == Changelog ==
 
+= 0.2.1 =
+* Rephrasing things
+* Semver
+* WordPress 4.3 compatibility
+
 = 0.2 =
 * Support CSS debugging and small corrections.
 
 = 0.1 =
 * Initial release after some testing. Not complete!
-
-== Upgrade Notice ==
-

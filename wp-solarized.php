@@ -1,11 +1,10 @@
 <?php
 /*
-Plugin Name: WordPress Solarized
+Plugin Name: Solarized Admin Color Scheme
 Plugin URI: http://wordpress.org/plugins/wp-solarized/
-Description: Make the Dashboard Solarized
-Version: 0.2
+Description: Make admin pages solarized.
+Version: 0.2.1
 Author: Viktor Szépe
-Author URI: http://www.online1.hu/webdesign/
 License: GNU General Public License (GPL) version 2
 GitHub Plugin URI: https://github.com/szepeviktor/wp-solarized
 */
@@ -13,12 +12,14 @@ GitHub Plugin URI: https://github.com/szepeviktor/wp-solarized
 add_action( 'admin_init', 'solarized_colors' );
 
 function solarized_tiny_mce_css( $mce_css ) {
+
     $mce_css .= ',' . plugins_url( 'css/tiny-mce.css', __FILE__ );
 
     return $mce_css;
 }
 
 function solarized_colors() {
+
     add_filter( 'mce_css', 'solarized_tiny_mce_css' );
 
     $suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '.css' : '.min.css';
